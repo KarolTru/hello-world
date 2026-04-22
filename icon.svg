@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="114" fill="#111"/>
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#333" stroke-width="3"/>
+  <circle cx="256" cy="256" r="185" fill="none" stroke="#222" stroke-width="1"/>
+  <text x="256" y="105" text-anchor="middle" dominant-baseline="middle"
+        fill="#E53935" font-size="68" font-weight="bold" font-family="-apple-system,sans-serif">N</text>
+  <text x="256" y="407" text-anchor="middle" dominant-baseline="middle"
+        fill="#666" font-size="44" font-weight="bold" font-family="-apple-system,sans-serif">S</text>
+  <text x="105" y="256" text-anchor="middle" dominant-baseline="middle"
+        fill="#666" font-size="44" font-weight="bold" font-family="-apple-system,sans-serif">W</text>
+  <text x="407" y="256" text-anchor="middle" dominant-baseline="middle"
+        fill="#666" font-size="44" font-weight="bold" font-family="-apple-system,sans-serif">E</text>
+  <!-- Needle north (red) -->
+  <polygon points="256,148 244,256 268,256" fill="#E53935"/>
+  <!-- Needle south (gray) -->
+  <polygon points="256,364 244,256 268,256" fill="#555"/>
+  <!-- Center hub -->
+  <circle cx="256" cy="256" r="16" fill="#fff"/>
+  <circle cx="256" cy="256" r="8"  fill="#111"/>
+</svg>
